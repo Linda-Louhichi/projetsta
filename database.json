@@ -1,0 +1,180 @@
+{
+  "contacts": {
+    "autoIncrement": 3,
+    "rows": [
+      {
+        "id": 1,
+        "name": "Lynda Louhychy",
+        "email": "lyndalouhychy@gmail.com",
+        "phone": null,
+        "company": "ZAWYET ",
+        "message": "Subject: HRA%\n\ndddddddd",
+        "createdAt": "2026-04-20 23:58:13"
+      },
+      {
+        "id": 2,
+        "name": "test",
+        "email": "test@test.tst",
+        "phone": null,
+        "company": "ttt",
+        "message": "Subject: ttt\n\ntttt",
+        "createdAt": "2026-04-21 09:21:44"
+      }
+    ]
+  },
+  "projects": {
+    "autoIncrement": 2,
+    "rows": [
+      {
+        "id": 1,
+        "title": "test",
+        "sector": "test",
+        "description": "test",
+        "context": "test",
+        "solution": "test",
+        "result": "test",
+        "technologies": "test",
+        "imageUrl": null,
+        "status": "in-progress",
+        "createdAt": "2026-04-20 23:48:03"
+      }
+    ]
+  },
+  "blogs": {
+    "autoIncrement": 2,
+    "rows": [
+      {
+        "id": 1,
+        "title": "ouss",
+        "excerpt": "test",
+        "content": "test",
+        "author": "ouss",
+        "category": "IoT",
+        "tags": null,
+        "imageUrl": null,
+        "published": 1,
+        "createdAt": "2026-04-20 23:47:31",
+        "updatedAt": "2026-04-20T23:47:31.906Z"
+      }
+    ]
+  },
+  "testimonials": {
+    "autoIncrement": 1,
+    "rows": []
+  },
+  "faqs": {
+    "autoIncrement": 1,
+    "rows": []
+  },
+  "services": {
+    "autoIncrement": 1,
+    "rows": []
+  },
+  "team_members": {
+    "autoIncrement": 1,
+    "rows": []
+  },
+  "site_settings": {
+    "autoIncrement": 8,
+    "rows": [
+      {
+        "id": 1,
+        "setting_key": "site_title",
+        "setting_value": "Resalogic | Microsoft Technology Partner",
+        "setting_type": "text",
+        "updatedAt": "2026-04-20 23:38:10"
+      },
+      {
+        "id": 2,
+        "setting_key": "site_email",
+        "setting_value": "contact@resalogic.com",
+        "setting_type": "email",
+        "updatedAt": "2026-04-20 23:38:10"
+      },
+      {
+        "id": 3,
+        "setting_key": "site_phone",
+        "setting_value": "+216 55 444 536",
+        "setting_type": "text",
+        "updatedAt": "2026-04-20 23:38:10"
+      },
+      {
+        "id": 4,
+        "setting_key": "site_address",
+        "setting_value": "Mahdia, Tunisie",
+        "setting_type": "text",
+        "updatedAt": "2026-04-20 23:38:10"
+      },
+      {
+        "id": 5,
+        "setting_key": "social_linkedin",
+        "setting_value": "#",
+        "setting_type": "url",
+        "updatedAt": "2026-04-20 23:38:10"
+      },
+      {
+        "id": 6,
+        "setting_key": "social_twitter",
+        "setting_value": "#",
+        "setting_type": "url",
+        "updatedAt": "2026-04-20 23:38:10"
+      },
+      {
+        "id": 7,
+        "setting_key": "social_github",
+        "setting_value": "#",
+        "setting_type": "url",
+        "updatedAt": "2026-04-20 23:38:10"
+      }
+    ]
+  },
+  "users": {
+    "autoIncrement": 5,
+    "rows": [
+      {
+        "id": 1,
+        "email": "admin@resalogic.com",
+        "password": "admin123",
+        "name": "Super Admin",
+        "role": "admin",
+        "avatar": null,
+        "active": 1,
+        "lastLogin": "2026-04-21 10:07:56",
+        "createdAt": "2026-04-20 23:38:10"
+      },
+      {
+        "id": 2,
+        "email": "linda@resalogic.com",
+        "password": "080304",
+        "name": "linda",
+        "role": "moderator",
+        "avatar": null,
+        "active": 1,
+        "createdAt": "2026-04-20 23:43:20",
+        "lastLogin": "2026-04-20 23:46:14"
+      },
+      {
+        "id": 3,
+        "email": "moderateur@resalogic.com",
+        "password": "mod123",
+        "name": "Modérateur",
+        "role": "moderator",
+        "avatar": null,
+        "active": 1,
+        "lastLogin": null,
+        "createdAt": "2026-04-20 23:46:19"
+      },
+      {
+        "id": 4,
+        "email": "client@resalogic.com",
+        "password": "client123",
+        "name": "Client",
+        "role": "moderator",
+        "avatar": null,
+        "active": 1,
+        "lastLogin": null,
+        "createdAt": "2026-04-20 23:46:19"
+      }
+    ]
+  }
+}
